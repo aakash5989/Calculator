@@ -7,6 +7,7 @@ public class Main {
     static void main() {
         Scanner sc = new Scanner(System.in);
 
+
         while(true){
             System.out.println("\n ====== Calculator =======");
             System.out.println("Addition");
@@ -52,7 +53,7 @@ public class Main {
                     break;
 
                 default:
-                    System.out.println("Invalid choice");
+                    System.out.println("Invalid choice!");
             }
         }
         sc.close();
